@@ -12,6 +12,8 @@
 		439C2D331E28A6A500BA3676 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 439C2D311E28A6A500BA3676 /* Main.storyboard */; };
 		439C2D351E28A6A500BA3676 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 439C2D341E28A6A500BA3676 /* Assets.xcassets */; };
 		439C2D381E28A6A500BA3676 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 439C2D361E28A6A500BA3676 /* LaunchScreen.storyboard */; };
+		439C2D401E28A81B00BA3676 /* MyClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439C2D3F1E28A81B00BA3676 /* MyClass.swift */; };
+		439C2D421E28AD6800BA3676 /* NewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439C2D411E28AD6800BA3676 /* NewProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		439C2D341E28A6A500BA3676 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		439C2D371E28A6A500BA3676 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		439C2D391E28A6A500BA3676 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		439C2D3F1E28A81B00BA3676 /* MyClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyClass.swift; sourceTree = "<group>"; };
+		439C2D411E28AD6800BA3676 /* NewProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				439C2D341E28A6A500BA3676 /* Assets.xcassets */,
 				439C2D361E28A6A500BA3676 /* LaunchScreen.storyboard */,
 				439C2D391E28A6A500BA3676 /* Info.plist */,
+				439C2D3F1E28A81B00BA3676 /* MyClass.swift */,
+				439C2D411E28AD6800BA3676 /* NewProtocol.swift */,
 			);
 			path = "Protocol Example";
 			sourceTree = "<group>";
@@ -136,8 +142,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				439C2D401E28A81B00BA3676 /* MyClass.swift in Sources */,
 				439C2D301E28A6A500BA3676 /* ViewController.swift in Sources */,
 				439C2D2E1E28A6A500BA3676 /* AppDelegate.swift in Sources */,
+				439C2D421E28AD6800BA3676 /* NewProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
